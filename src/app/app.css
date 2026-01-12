@@ -1,0 +1,102 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: #4a00e0;
+  margin-bottom: 30px;
+}
+
+.formulario {
+  background: #f5f3ff;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  display: grid;
+  gap: 12px;
+}
+
+.formulario input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.formulario button {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.formulario button[type="submit"] {
+  background: #4a00e0;
+  color: white;
+}
+
+.formulario button[type="button"] {
+  background: #ff4757;
+  color: white;
+}
+
+.lista h2 {
+  margin-bottom: 15px;
+  color: #2c2c2c;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  background: white;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.info {
+  flex: 1;
+}
+
+.acciones {
+  display: flex;
+  gap: 8px;
+}
+
+.btn-edit {
+  background: #2ed573;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-delete {
+  background: #ff4757;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.estado {
+  text-align: center;
+  padding: 15px;
+  color: #666;
+  font-style: italic;
+}
+
+.estado.error {
+  color: #ff4757;
+  background: #ffeaea;
+  border-radius: 6px;
+  margin: 15px 0;
+}
