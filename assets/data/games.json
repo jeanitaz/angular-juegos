@@ -1,3 +1,22 @@
 {
-  "games": []
+  "games": [
+    {
+      "nombre": "Call of Duty ",
+      "genero": "Shooter",
+      "anio": 2024,
+      "id": 1
+    },
+    {
+      "nombre": "Warzone ",
+      "genero": "Shooter",
+      "anio": 2024,
+      "id": 3
+    },
+    {
+      "nombre": "",
+      "genero": "",
+      "anio": 2024,
+      "id": 4
+    }
+  ]
 }
